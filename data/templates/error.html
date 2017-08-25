@@ -1,0 +1,8 @@
+{% extends "_base.html" %}
+
+{% block content %}
+<div class="row">
+    <h4>ERROR: {{ message }}</h4>
+    <a href="{% url 'user_logout' %}">Use another account</a>
+</div>
+{% endblock %}
